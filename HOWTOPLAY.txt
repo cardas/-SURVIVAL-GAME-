@@ -1,0 +1,15 @@
+1) Zaidime galioja 3 difficulty pasirinkimai, nuo ju priklauso zaidymo sunkumas.
+3) Pries pradedant zaidima, zaidejas turi pasirinkti kur jis zais ar ten kur yra salta/karsta.
+4) Pagal zaidimo pasirinkta sunkuma, generuojasi daiktai, jos galite perziureti INVENTORY Meniu.
+5) Pagrindiniame meniu yra idetas SHOPAS, kuriame galime nusipirkti geresnius sau sarvus/karda/maista/medi...
+6) Pries stodamas i kova zaidejas privalo apgalvotai isigyti jam reikalingus daiktus.
+7) Stojant i kova pries ka nors mes prarandame Stamina... Kad ja atgauti reikia issimegoti paspaudzius
+   Next Day, ar/arba suvalgyti maista,isgerti vandens...
+8) Pries paspaudzius Next Day migtuka zaidejas privalo ivertinti situacija, ar tai bus saugu
+   jeigu jis megos ten kur Salta, be sukurto Shelter, Fire , Torch ... jis gali susalti, 
+   (Susalimas rodomas COLD... kai jis igauna neigiama reiksme HP pradeda kristi ...)
+9) Kaip praleisti savo diena, ar kovojant ar kuriant kazka turint medzius... Priklauso nuo 
+   zaidejo pasirinkimo...
+10) Zaidimas trunka 30 dienu, nespejus per jas atlykti CHALLENGES ir pabaigos Scenariji... Surinkti
+taskai ir ACHIEVEMENT yra automatiskai pridedami i LEADERBOARD... 
+11) Kaip jusu HP pasieks 0 arba neigiama reiksme GAME OVER .. 
