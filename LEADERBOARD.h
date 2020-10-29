@@ -132,16 +132,22 @@ output = fopen("output.html", "w");
 fprintf(output, "<!DOCTYPE html>\n"
          "<html style='background-image: url(https://obliqueexposure.files.wordpress.com/2014/06/img_7175.jpg);\n"
                   "    background-repeat: no-repeat;\n"
-                  "    background-size: cover;'>\n" ) ;
-
+                  "    background-size: cover;'>\n"
+                        	 " <style> \n"
+		 " h1{text-align:center;} \n"
+		 " .Border{background-color:black} \n"
+		  ".Main-what{font-size: 1.5em} \n"
+	 " </style> \n"
+	);
        fprintf(output,  "<title>SURVIVAL</title>\n"
-         "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n" )   ;
+         "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"> \n"
+         "<div class=Border>");
          fprintf(output, "<h1 style = color:blue>  SURVIVAL LEADERBOARD</h1>" );
    //  fprintf (output, "<title> SURVIVAL </title> </head> <body>\n") ;
-      fprintf( output, "<table style=width:600px align=center  >"  ) ;
- fprintf( output, " <tr style = color:red> <th> Player Name </th> <th> Zombies killed </th> <th> Achievments </th> </tr>") ;
-    fprintf( output, " <tr style = color:yellow> <th> %s </th> <th> %d </th> <th> %s </th> </tr>","George",45, "Conquero" );
-    fprintf( output, " <tr style = color:yellow> <th> %s </th> <th> %d </th> <th> %s </th> </tr>","George",40, "Platinum" );
+      fprintf( output, "<table style=width:600px align=center  > \n"  ) ;
+ fprintf( output, " <tr class=Main-what style = color:red> <th> Player Name </th> <th> Zombies killed </th> <th> Achievments </th> </tr> <hr> \n") ;
+    fprintf( output, " <tr style = color:yellow> <th> %s </th> <th> %d </th> <th> %s </th> </tr>","George",45, "Conquero \n" );
+    fprintf( output, " <tr style = color:yellow> <th> %s </th> <th> %d </th> <th> %s </th> </tr>","George",40, "Platinum \n" );
 
  /// EILUTE IR NAUJA EIL
 
@@ -151,7 +157,7 @@ fprintf(output, "<!DOCTYPE html>\n"
   output = fopen ("output.txt", "a+");
 
 
-   fprintf ( output, " <tr style = color:yellow> <th> %s </th> <th> %d </th> <th> %s </th> </tr> \n", PlayerNAME.c_str(), KIEKHARD , PresentAchievement.c_str() );
+   fprintf ( output, "\n <tr style = color:yellow> <th> %s </th> <th> %d </th> <th> %s </th> </tr> <br>", PlayerNAME.c_str(), KIEKHARD , PresentAchievement.c_str() );
 
 
 fclose(output);
@@ -162,7 +168,7 @@ string ReadItems ;
     while(!found.eof())
     {
         getline(found,ReadItems);
-       fprintf(output,"<th>%s</th>",ReadItems.c_str() );
+       fprintf(output,"<th>%s</th> \n",ReadItems.c_str() );
 
     }
     found.close();
@@ -178,7 +184,10 @@ string ReadItems ;
 
 
 
-  fprintf(output,"</body>\n" "</html>");
+  fprintf(output,
+           "</div>\n"
+           "</body>\n"
+            "</html>");
 
  fclose(output);
 

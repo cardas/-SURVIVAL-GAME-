@@ -33,7 +33,7 @@ void MAFIA1() ;
 void BOSSMAFIA2() ;
 void BOSSMAFIA1() ;
 string PresentAchievement = "" ;
-string achievement[8] = "" ;
+string achievement[8];
 int ach ;
 bool VILK = false , DIDELISVIL = false , MAZASLOK = false;
 bool DIDELISLOK = false , DRAKONS = false , MISKODVA = false;
