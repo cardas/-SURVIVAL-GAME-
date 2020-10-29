@@ -31,7 +31,9 @@
 ![Game_Steps](KodasC++/GameStart11.png)
 ![Game_Steps](KodasC++/GameStart12.png)
 ![Game_Steps](KodasC++/GameStart13.png)
+# SAFE FIGHT
 ![Game_Steps](KodasC++/GameStart14.png)
+# CAMPAING FIGHT
 ![Game_Steps](KodasC++/GameStart15.png)
 ![Game_Steps](KodasC++/GameStart16.png)
 ![Game_Steps](KodasC++/GameStart17.png)
