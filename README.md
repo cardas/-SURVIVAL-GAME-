@@ -50,7 +50,7 @@
 ### Our Inventory
 ![Game_Steps](KodasC++/GameStart17.png)
 ### Back to rule Page - back to Start Page(where u can find a rules,history,privacy bars)
-### Leaderboard - Creat for you
+### Leaderboard - Let Us See You in Our HTML Leaderboard List !
 ### Exit - Exit Game 
 ![Game_Steps](KodasC++/GameStart18.png)
 ### !Game Over! After Next Day starting by HP < 0
